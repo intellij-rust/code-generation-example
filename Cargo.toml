@@ -1,0 +1,11 @@
+[package]
+name = "code-generation-example"
+version = "0.1.0"
+authors = ["Arseniy Pendryak <arseniy.pendryak@jetbrains.com>"]
+edition = "2018"
+
+license = "MIT"
+description = "Simple lib with code generation example"
+homepage = "https://github.com/intellij-rust/code-generation-example"
+repository = "https://github.com/intellij-rust/code-generation-example"
+documentation = "https://docs.rs/code-generation-example"
