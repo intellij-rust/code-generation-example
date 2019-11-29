@@ -24,6 +24,8 @@ fn main() {
         }
     ");
     println!("cargo:rustc-env=GENERATED_ENV={}", gen_dir.display());
+
+    println!("cargo:rustc-cfg=has_generated_feature")
 }
 
 fn generate_file<P: AsRef<Path>>(path: P, text: &[u8]) {
